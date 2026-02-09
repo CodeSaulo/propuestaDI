@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta GL Mind - Derma Integral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <style>
+        @media print {
+            .no-print { display: none; }
+            body { background: white; }
+            .print-container { box-shadow: none; border: none; width: 100%; margin: 0; padding: 0; }
+            /* Regla para forzar el salto de página en la impresión */
+            .page-break {
+                break-before: page;
+                margin-top: 2rem;
+            }
+        }
+        body { background-color: #f1f5f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .signature-font { font-family: 'Dancing Script', cursive; }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-sm overflow-hidden print-container">
+        <!-- Encabezado -->
+        <div class="p-8 border-b-4 border-indigo-600 flex justify-between items-center bg-slate-50">
+            <div>
+                <img src="./logo.png" alt="GL Mind Logo" class="h-20 w-auto">
+                <p class="text-xs text-indigo-600 font-bold mt-2 uppercase tracking-tighter">Tecnología que conecta. Estrategia que escala.</p>
+            </div>
+            <div class="text-right">
+                <h1 class="text-2xl font-black text-slate-800">PROPUESTA EJECUTIVA</h1>
+                <p class="text-slate-500 font-medium">Clínica Derma Integral</p>
+                <p class="text-sm text-slate-400 mt-1">9 de febrero, 2026</p>
+            </div>
+        </div>
+
+        <!-- Cuerpo -->
+        <div class="p-10 space-y-8 text-slate-800">
+            
+            <!-- Pitch Ganador -->
+            <section>
+                <h2 class="text-xl font-bold border-b-2 border-slate-100 pb-2 mb-4 text-indigo-900">NUESTRA VISIÓN</h2>
+                <p class="mb-4 leading-relaxed">
+                    En <strong>GL Mind</strong>, no solo desarrollamos código; construimos la infraestructura que permitirá que su clínica escale sin límites. La mayoría de los proveedores entregan un producto que funciona hoy, pero que se vuelve un obstáculo mañana.
+                </p>
+                <div class="bg-indigo-50 p-4 border-l-4 border-indigo-500 italic">
+                    "Si busca a alguien que solo haga una página web, hay muchas opciones. Pero si busca un equipo que construya el motor digital de su clínica, somos su mejor opción."
+                </div>
+            </section>
+
+            <!-- Alcance -->
+            <section>
+                <h2 class="text-xl font-bold border-b-2 border-slate-100 pb-2 mb-4 text-indigo-900">ALCANCE DEL PROYECTO</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-4 border border-slate-100 rounded-lg bg-slate-50">
+                        <h3 class="font-bold text-indigo-600 mb-2">Desarrollo Web Premium</h3>
+                        <p class="text-sm text-slate-600">Modernización total de las 11 páginas actuales. Diseño minimalista, responsive y optimizado para la implementación de futuras soluciones.</p>
+                    </div>
+                    <div class="p-4 border border-indigo-100 rounded-lg bg-indigo-50">
+                        <h3 class="font-bold text-indigo-600 mb-2">Sesión Fotográfica Profesional</h3>
+                        <p class="text-sm text-slate-600">Retratos del staff médico, fotos grupales e instalaciones (si aplica). Valorada en $7,000 MXN, incluida <strong>SIN COSTO</strong>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inversión (Aquí inicia el salto de página para impresión) -->
+            <section class="page-break">
+                <h2 class="text-xl font-bold border-b-2 border-slate-100 pb-2 mb-4 text-indigo-900">INVERSIÓN ESTRATÉGICA</h2>
+                <div class="overflow-hidden rounded-lg border border-slate-200">
+                    <table class="w-full text-left">
+                        <thead class="bg-slate-800 text-white">
+                            <tr>
+                                <th class="p-4">Concepto</th>
+                                <th class="p-4 text-right">Monto</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200">
+                            <tr>
+                                <td class="p-4 font-medium">Modernización Web de Alta Gama (11 secciones)</td>
+                                <td class="p-4 text-right font-bold">$55,000 MXN</td>
+                            </tr>
+                            <tr class="text-indigo-600 bg-indigo-50">
+                                <td class="p-4 font-medium">Sesión Fotográfica Profesional (Staff & Clínica)</td>
+                                <td class="p-4 text-right font-bold">INCLUIDA</td>
+                            </tr>
+                            <tr class="text-indigo-600 bg-indigo-50">
+                                <td class="p-4 font-medium">Garantía de Lanzamiento (30 días mantenimiento)</td>
+                                <td class="p-4 text-right font-bold">INCLUIDA</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="bg-slate-100">
+                            <tr>
+                                <td class="p-4 font-black text-lg">TOTAL DE INVERSIÓN</td>
+                                <td class="p-4 text-right font-black text-2xl text-indigo-700">$55,000 MXN</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="mt-4 flex gap-4 text-sm font-bold">
+                    <div class="bg-slate-50 p-3 rounded flex-1 text-center">50% ANTICIPO: $27,500</div>
+                    <div class="bg-slate-50 p-3 rounded flex-1 text-center">50% CONTRA ENTREGA: $27,500</div>
+                </div>
+            </section>
+
+            <!-- Firmas -->
+            <section class="pt-16 flex flex-col md:flex-row justify-between items-center gap-12">
+                <div class="w-full md:w-1/3 text-center">
+                    <div class="signature-font text-2xl text-indigo-700 mb-[-1px] opacity-90">Saul J. Gutierrez</div>
+                    <div class="border-t-2 border-slate-300 pt-4">
+                        <p class="font-black text-slate-800 uppercase tracking-wide">Saul J. Gutierrez</p>
+                        <p class="text-xs text-indigo-600 font-bold">CEO | GL Mind</p>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/3 text-center">
+                    <div class="signature-font text-2xl text-indigo-700 mb-[-1px] opacity-90">José María C. Lopez</div>
+                    <div class="border-t-2 border-slate-300 pt-4">
+                        <p class="font-black text-slate-800 uppercase tracking-wide">José María C. Lopez</p>
+                        <p class="text-xs text-indigo-600 font-bold">CTO | GL Mind</p>
+                    </div>
+                </div>
+
+                <!-- Espacio para firma del cliente -->
+                <div class="w-full md:w-1/3 text-center">
+                    <div class="h-10"></div>
+                    <div class="border-t-2 border-dashed border-slate-300 pt-4">
+                        <p class="font-black text-slate-400 uppercase tracking-wide">Aceptación Cliente</p>
+                        <p class="text-xs text-slate-400 font-bold italic">Firma y Fecha</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="bg-slate-800 p-4 text-center text-slate-400 text-xs uppercase tracking-widest no-print">
+            Propuesta sujeta a disponibilidad de agenda. Válida por 15 días.
+        </div>
+    </div>
+
+    <!-- Botón de imprimir solo visible en pantalla -->
+    <div class="fixed bottom-8 right-8 no-print">
+        <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full shadow-2xl flex items-center gap-2 transition-all">
+            <span>🖨️</span> Imprimir Propuesta
+        </button>
+    </div>
+</body>
+</html>
